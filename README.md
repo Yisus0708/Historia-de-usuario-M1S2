@@ -1,65 +1,22 @@
-Simple Inventory System (CLI)
+# 🛒 Inventory Management System
 
-📌 Description
-
-A basic Python command-line inventory system with login authentication.
-Users must log in before managing products.
+A simple Python console application that allows users to manage an inventory by adding products, viewing stored items, and calculating basic statistics like total value and quantity.
 
 ---
 
-🚀 Features
+## 🚀 Features
 
-- Login system (username & password)
-- Add products
-- Show inventory
-- Calculate inventory statistics
-
----
-
-🗂️ Project Structure
-
-login.py      # Handles user authentication
-main.py       # Main menu and program flow
-products.py   # Product management & statistics
-storage.py    # Stores inventory in memory
+- ✨ Add products with name, price, and quantity  
+- 📦 Display all products in the inventory  
+- 📊 Calculate total inventory value and total number of items  
 
 ---
 
-▶️ How to Run
-
+## ▶️ Run the project
 python main.py
 
 ---
 
-🔐 Login Credentials
-
-Username: Jesu
-Password: 0708
-
----
-
-📋 Menu
-
-1. Add product
-2. Show inventory
-3. Calculate statistics
-4. Exit
-
----
-
-📦 Data Format
-
-Each product:
-
-{
-  "name": str,
-  "price": float,
-  "quantity": int
-}
-
----
-
-🖼️ Diagram
-
+## 🖼️ Diagram
 <img width="694" height="1293" alt="Diagrama Inventory system" src="https://github.com/user-attachments/assets/d4991cc2-f956-4300-bdd3-e009a38abb1a" />
 
